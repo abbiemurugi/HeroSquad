@@ -10,8 +10,9 @@
   #end
 </ul>
 #else
-<em><p>Oops! We cant seem to find that Squad.</p></em>
+<em id="error"><p>Oops! We cant seem to find that Squad.</p></em>
 #end
 
-<a href="/squads/$squad.getId()/heroes/new">Add a new hero</a>
-<a href="/squads">All squad</a>
+<a class="btn btn-outline-dark" href="/squads/$squad.getId()/heroes/new">Add new hero</a>
+<br>
+<a class="btn btn-outline-dark" href="/squads">All squad</a>
