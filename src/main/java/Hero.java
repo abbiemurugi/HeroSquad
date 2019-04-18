@@ -48,6 +48,10 @@ public class Hero{
         return instances;
     }
 
+    public static void clear() {
+        instances.clear();
+    }
+
     public static Hero find(int Id){
         return instances.get(Id - 1);
     }
