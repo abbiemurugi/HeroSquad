@@ -1,0 +1,80 @@
+#idx{
+  font-family: 'Monoton', cursive;
+  font-size: 100px;
+  text-align: center;
+  color: red;
+
+}
+
+#idx1{
+  text-align: center;
+  color: red;
+  font-family: 'Baloo', cursive
+
+}
+
+.index{
+background-image: url("../images/iron.jpg");
+padding: 182px;
+
+
+}
+
+.btn{
+  transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin-left: 10em;
+  font-color: red;
+  font-style: italic;
+}
+
+.btn:hover {
+  box-shadow: 0 0 5px 2px grey;
+}
+
+body{
+text-align: center;
+background-image: url("../images/squad.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+}
+
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  margin-top: 4em;
+   padding: 40px;
+   border-radius: 5px;
+   background-color: grey;
+}
+
+.card h1{
+  font-family: 'Monoton', cursive;
+}
+
+.container-fluid h1{
+   font-family: 'Monoton', cursive;
+   font-size: 70px;
+   padding-bottom: 50px;
+   color: red;
+}
+
+#squads h1{
+   font-family: 'Monoton', cursive;
+   color: red;
+   font-size: 70px;
+}
+
+.href{
+font-size: 70px;
+}
+
+#error{
+  font-family: 'Baloo', cursive
+  font-size: 40px;
+}
+
