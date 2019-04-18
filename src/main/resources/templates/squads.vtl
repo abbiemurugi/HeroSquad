@@ -1,7 +1,10 @@
+<div class="container" id="squads">
 <h1>All squads</h1>
 <ul>
   #foreach ($squad in $squads)
     <li><a href="/squads/$squad.getId()">$squad.getmName()</a></li>
   #end
 </ul>
-<a href="/squads/new">Add New Squad</a>
+
+<button type="submit" class="btn btn-outline-dark" href="/squads/new"> Add New Squad</a>
+</div>
